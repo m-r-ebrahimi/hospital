@@ -1,11 +1,15 @@
 package entity;
 
 public enum Sex {
-    MALE ("male"),FEMALE ("female");
+    MALE(1), FEMALE(2);
 
-    private String sex;
+    private int sex;
 
-    Sex(String sex) {
+    Sex(int sex) {
         this.sex = sex;
+    }
+
+    public  int getSex() {
+        return sex;
     }
 }
