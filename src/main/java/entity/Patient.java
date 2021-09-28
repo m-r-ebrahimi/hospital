@@ -11,6 +11,9 @@ public class Patient {
     private Date birthdate;
     private String address;
 
+    public Patient() {
+    }
+
     public Patient(String name, int age, Sex sex, Date birthdate, String address) {
         this.name = name;
         this.age = age;
